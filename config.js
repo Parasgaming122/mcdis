@@ -2,23 +2,23 @@
 module.exports = {
     //Your bot data
     bot: {
-        token: "", //Your bot token - https://tinyurl.com/discordbot-token
-        prefix: "", //Your custom prefix of the bot, like "!" or "."
-        presence: "", //Custom activity/status text
-        status: "",  //You can choose: ONLINE, IDLE, DND (do not disturb), INVISIBLE
-        activity: "", //You can choose: PLAYING, LISTENING, WATCHING, COMPETING
-        guildID: "", //Your Discord server guild ID
+        token: "MTAyNzQ0NTg3Nzk4NTUyNTgxMA.GA99y2.J2TC3tGycrwDoRtZE1e8gDKT7093NkxNHaBPec", //Your bot token - https://tinyurl.com/discordbot-token
+        prefix: "%", //Your custom prefix of the bot, like "!" or "."
+        presence: "mc", //Custom activity/status text
+        status: "IDLE",  //You can choose: ONLINE, IDLE, DND (do not disturb), INVISIBLE
+        activity: "PLAYING", //You can choose: PLAYING, LISTENING, WATCHING, COMPETING
+        guildID: "1014384831582449736", //Your Discord server guild ID
     },
 
     //Your Minecraft server data
     server: {
-        name: "", //Your server name
-        type: "", //"java" or "bedrock"
-        ip: "", //IP of your server - do not include port - e.g. "mc.hypixel.net"
+        name: "Lifestealermc", //Your server name
+        type: "java", //"java" or "bedrock"
+        ip: "play.lifestealermc.tk", //IP of your server - do not include port - e.g. "mc.hypixel.net"
         port: "", //PORT of your server - empty => default port (JA 25565, BE 19132)
-        icon: "", //Link to icon - like "https://website.com/icon.png"
-        version: "", //Minecraft version of sever
-        vote: "" //Vote link - like "https://minecraftpocket-servers.com/server/80103/vote/"
+        icon: "https://cdn.discordapp.com/icons/1014384831582449736/bcade1ed1418260f3056f908893f95c3.png?size=4096", //Link to icon - like "https://website.com/icon.png"
+        version: "1.19.2", //Minecraft version of sever
+        vote: "https://topminecraftservers.org/vote/30108" //Vote link - like "https://minecraftpocket-servers.com/server/80103/vote/"
     },
 
     //Basic code settings
