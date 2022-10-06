@@ -2,7 +2,7 @@
 module.exports = {
     //Your bot data
     bot: {
-        token: "MTAyNzQ0NTg3Nzk4NTUyNTgxMA.GA99y2.J2TC3tGycrwDoRtZE1e8gDKT7093NkxNHaBPec", //Your bot token - https://tinyurl.com/discordbot-token
+        token: "", //Your bot token - https://tinyurl.com/discordbot-token
         prefix: "%", //Your custom prefix of the bot, like "!" or "."
         presence: "mc", //Custom activity/status text
         status: "IDLE",  //You can choose: ONLINE, IDLE, DND (do not disturb), INVISIBLE
